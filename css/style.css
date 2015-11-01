@@ -360,6 +360,8 @@ input[type="button"]:focus,input[type="submit"]:focus
 	background: -webkit-linear-gradient(top, #F4CB77 0, #F5B225 100%);
 	box-shadow: 0 2px 0 #4d4d4d;
 	color: #fff;
+	margin: 2em 0;
+  display: inline-block;
 }
 .button-sign-up:not([disabled]):focus,.button-sign-up:not([disabled]):hover
 {
@@ -461,14 +463,14 @@ section h1:first-child,section h2:first-child,section h3:first-child,section h4:
 }
 .patterned-div
 {
-    background: white;  
-    background-image: url('../images/gplaypattern.png');  
-	background-attachment: fixed;  
+    background: white;
+    background-image: url('../images/gplaypattern.png');
+	background-attachment: fixed;
 	background-repeat: repeat;
 }
 .section-background-colour1
 {
-	background-color: rgba(111,111,111,0.67); 
+	background-color: rgba(111,111,111,0.67);
 	color: #ffffff;
 }
 .section-background-colour1 a
@@ -504,7 +506,7 @@ section h1:first-child,section h2:first-child,section h3:first-child,section h4:
 footer
 {
 	font-size: .8em;
-	margin: 4em 1em;
+	margin: 1em 1em 4em 1em;
 	text-align: center;
 }
 footer ul
